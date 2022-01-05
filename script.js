@@ -8,7 +8,7 @@ let grid = document.createElement('div');
 let newGridSize = 256;
 let gridSize = 16;
 let blackModeCount = false;
-let audio = new Audio("https://github.com/MrSamLJ/etch-a-sketch/raw/main/beep.aiff");
+let audio = new Audio("beep.mp3");
 
 //Create wrapper and container elements
 let subWrapper = document.createElement('div');
@@ -22,7 +22,7 @@ let container = document.createElement('div');
 container.classList.add('container');
 subWrapper.appendChild(container);
 
-// Add a button &  position to top of screen
+// Create buttons
 let button = document.createElement('button');
 button.textContent = "Change grid size";
 button.classList.add('refresh-button');
@@ -32,7 +32,6 @@ refreshGrid();
 audio.play();
 });
 
-// Create buttons
 let blackButton = document.createElement('button');
 blackButton.textContent = "Non-funky mode";
 blackButton.classList.add('refresh-button');
