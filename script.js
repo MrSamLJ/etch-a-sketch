@@ -8,7 +8,7 @@ let grid = document.createElement('div');
 let newGridSize = 256;
 let gridSize = 16;
 let blackModeCount = false;
-let audio = new Audio("/beep.aiff");
+let audio = new Audio("https://github.com/MrSamLJ/etch-a-sketch/raw/main/beep.aiff");
 
 //Create wrapper and container elements
 let subWrapper = document.createElement('div');
