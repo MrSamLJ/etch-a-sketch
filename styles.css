@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  background-image: url("/images/groovepaper.png");
+  background-image: url("images/groovepaper.png");
   font-family: "Gochi Hand", cursive;
   height: 100vh;
   margin: 0;
